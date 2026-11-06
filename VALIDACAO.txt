@@ -1,0 +1,5 @@
+Validação em 06/11/2026
+5 testes automatizados aprovados: números, estatísticas, demografia, demais bases e equivalência XLSX/CSV.
+Streamlit AppTest: quatro módulos executados sem exceções; filtros de município, região e seleção vazia verificados.
+Conferência visual em navegador não concluída: instalação do navegador indisponível.
+Limitações do enunciado estão em COBERTURA.md.

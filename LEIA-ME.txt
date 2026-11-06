@@ -1,0 +1,22 @@
+NÚMEROS QUE FALAM — Python e Matemática
+
+1. Extraia TODO o ZIP para uma pasta.
+2. Abra o terminal nessa pasta.
+3. Instale: python -m pip install -r requirements.txt
+4. Inicie: python -m streamlit run app.py
+No Windows, pode usar py em vez de python.
+
+Este pacote abre somente o módulo individual de Crescimento demográfico. As demais bases estão preservadas para integração e testes. O painel funciona com os CSVs tratados anexados, sem conexão com o IBGE.
+Para refazer o tratamento dos XLSX: python analise.py
+Para testar: python -m unittest discover -s testes -v
+
+Arquivos:
+app.py — interface, filtros, gráficos e download.
+analise.py — importação SIDRA, limpeza, crescimento e estatísticas.
+dados/originais — exportações oficiais enviadas pelo aluno.
+dados/tratados — CSVs prontos para análise.
+MINHA_ANALISE.md — resultados de Bernardo e roteiro de apresentação.
+COBERTURA.md — requisitos cobertos e dados ainda ausentes.
+
+O individual mantém Crescimento demográfico, conforme o ZIP anterior.
+O guia exige 5 indicadores e identificação da equipe; há 4 bases disponíveis.
